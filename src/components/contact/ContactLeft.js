@@ -22,24 +22,24 @@ const ContactLeft = () => {
           (LLM) to create intelligent, AI-driven solutions.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+263 712534689</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <span className="text-lightText">celistinechipangura01@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <a href="https://www.facebook.com/celistine.chipangura/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaFacebookF />
-          </span>
+          </a>
           <span className="bannerIcon">
             <FaTwitter />
           </span>
-          <span className="bannerIcon">
+          <a href="https://www.linkedin.com/in/celistine-chipangura-70934b29b/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaLinkedinIn />
-          </span>
+          </a>
         </div>
       </div>
     </div>

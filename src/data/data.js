@@ -1,42 +1,43 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
+import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    icon: <FaGlobe />,
+    title: "Full Stack Web Development",
+    des: "Building scalable, responsive, and intuitive web applications using modern technologies and frameworks.",
   },
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "iOS & Android App Development",
+    des: "Creating seamless mobile experiences with native and cross-platform mobile app development for iOS and Android.",
   },
   {
     id: 3,
     icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "AI & LLM Integration",
+    des: "Leveraging Large Language Models (LLM) and AI to enhance applications with intelligent, dynamic interactions.",
   },
   {
     id: 4,
     icon: <FaMobile />,
     title: "Mobile Development",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Expert development of mobile apps with user-friendly interfaces and robust back-end services.",
   },
   {
     id: 5,
     icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "Chatbot Development",
+    des: "Building intelligent chatbots to improve user engagement and automate customer service through natural language processing.",
   },
   {
     id: 6,
     icon: <FaGlobe />,
-    title: "Hosting Websites",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    title: "Hosting & Deployment",
+    des: "Efficient deployment and hosting solutions to ensure your web and mobile apps are always accessible and performing optimally.",
   },
 ];
