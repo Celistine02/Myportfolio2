@@ -11,13 +11,15 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
+        <h3 className="text-3xl font-bold text-white">Celistine Chipangura</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+          Full Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          I’m a passionate full-stack developer focused on building scalable,
+          intuitive web applications. I specialize in both backend and frontend
+          development, and I’m excited about leveraging Large Language Models
+          (LLM) to create intelligent, AI-driven solutions.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+968 97859628</span>
