@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion';
-import ResumeCard from './ResumeCard';
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
@@ -18,21 +18,16 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
+            subTitle="University of Zimbabwe (2022 - present)"
             result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Currently pursuing a Bachelor of Science in Computer Science, gaining a strong foundation in programming, algorithms, software engineering, and artificial intelligence."
           />
-          <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
+
           <ResumeCard
             title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
+            subTitle="St Francis & St Clare High (2014 - 2019)"
             result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="Completed secondary education with a focus on mathematics, science, and technology, building the foundation for my interest in computer science and software development."
           />
         </div>
       </div>
@@ -45,27 +40,27 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Full Stack Software Developer"
+            subTitle="Sakiso Digital - (2024 - Present)"
+            result="Zimbabwe"
+            des="Working on a range of projects, from web development to mobile apps, using modern frameworks and technologies like React, Node.js, and databases to build scalable, user-friendly solutions."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Junior AI Engineer"
+            subTitle="LinearAI Internship - (2024-2025)"
+            result="UK-Remote"
+            des="Gaining hands-on experience in machine learning, natural language processing, and AI algorithms, contributing to the development of intelligent systems and improving automation processes."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Computer Science and Pure Mathematics Teacher"
+            subTitle="Kutenda High College - (2020 - 2021)"
+            result="Zimbabwe"
+            des="Taught advanced computer science and mathematics to high school students, fostering their problem-solving skills and interest in technology and mathematics."
           />
         </div>
       </div>
     </motion.div>
   );
-}
+};
 
-export default Education
+export default Education;
