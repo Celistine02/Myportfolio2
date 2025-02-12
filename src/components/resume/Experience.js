@@ -23,21 +23,21 @@ const Experience = () => {
           />
           <ResumeCard
             title="Full Stack Engineer"
-            subTitle="Sakiso Digital Developer Team - (2012 - 2016)"
+            subTitle="Sakiso Digital Developer Team - (2024 - Present)"
             result="Zimababwe"
             des="Development of web applications using HTML, CSS, and JavaScript, React, Node.js, and MongoDB, React Native, Chatbot developmenet, expo, Tensorflow, Keras, Pytorch, and ensuring cross-browser compatibility and responsive design."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Information Technology Technical Support"
+            subTitle="Glass Aluminium Center- (2024 - Present)"
+            result="Zimbabwe"
+            des="Technical Support & Troubleshooting, System & Network Maintenance, User Support & Training,."
           />
         </div>
       </div>
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
+          <p className="text-sm text-designColor tracking-[4px]">2019- 2024</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
