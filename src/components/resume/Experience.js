@@ -22,10 +22,10 @@ const Experience = () => {
             des="Deployment of AI models in the cloud and on-premises environments, ensuring scalability and performance."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Full Stack Engineer"
+            subTitle="Sakiso Digital Developer Team - (2012 - 2016)"
+            result="Zimababwe"
+            des="Development of web applications using HTML, CSS, and JavaScript, React, Node.js, and MongoDB, React Native, Chatbot developmenet, expo, Tensorflow, Keras, Pytorch, and ensuring cross-browser compatibility and responsive design."
           />
           <ResumeCard
             title="Front-end Developer"
