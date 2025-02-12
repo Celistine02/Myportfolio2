@@ -16,10 +16,10 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Junior Artificial Intelligence Engineer"
+            subTitle="LinearAI - (2024 - Present)"
+            result="United Kingdom"
+            des="Deployment of AI models in the cloud and on-premises environments, ensuring scalability and performance."
           />
           <ResumeCard
             title="Web Developer & Trainer"
